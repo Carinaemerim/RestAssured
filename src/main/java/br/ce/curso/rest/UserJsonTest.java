@@ -6,6 +6,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.hamcrest.*;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 
@@ -125,7 +126,8 @@ public class UserJsonTest {
                 ;
     }
 
-    @Test
+    
+    @Ignore
     public void JsonpathComJava(){
         ArrayList<String> names =
         given()
